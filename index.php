@@ -189,7 +189,6 @@ function getRandomMen($arr)
         <div>
             <?php
                 $men = getRandomMen($example_persons_array);
-                // var_dump($men);
                 getPerfectPartner($men['surname'], $men['name'], $men['patronomyc'], $example_persons_array);
             ?>
         </div>
