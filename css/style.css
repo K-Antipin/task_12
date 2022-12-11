@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    margin: 50px;
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+    width: 50vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.container * {
+    border: 1px solid black;
+}
+
+.container div {
+    padding: 10px;
+}
+
+.container div:nth-child(1) {
+    margin-bottom: 20px;
+}
