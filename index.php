@@ -157,7 +157,7 @@ function getPerfectPartner($surname, $name, $patronomyc, $arr)
 }
 
 /**
- * Функция для выбора случайного музчины
+ * Функция для выбора случайного мужчины
  */
 function getRandomMen($arr)
 {
